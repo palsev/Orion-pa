@@ -303,6 +303,9 @@
                                 variant: "h2",
                                 className: e.heading,
                                 children: "Stack ETH when ETH increases slow and steady"
+                            }), (0, E.jsxs)(l.Z, {
+                                className: (0, h.default)(e.text, e.textMargin),
+                                children: ["Zen bull makes money when ETH goes up, slow and steady. It stacks ETH if ETH is within the below bands at the next rebalance.", " "]
                             })]
                         }), (0, E.jsx)(x.Z, {
                             marginTop: "16px",

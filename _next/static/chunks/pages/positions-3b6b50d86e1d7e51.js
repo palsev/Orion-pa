@@ -826,7 +826,7 @@
                                             children: [(0, m.jsxs)(a.Z, {
                                                 variant: "body2",
                                                 className: e.transactionType === F.iU.BUY || e.transactionType === F.iU.BURN_SHORT || e.transactionType === F.iU.REMOVE_LIQUIDITY ? r.green : r.red,
-                                                children: [e.squeethAmount.toFixed(8), "\xa0 oSQTH"]
+                                                children: [e.squeethAmount.toFixed(8), "\xa0 oORN"]
                                             }), (0, m.jsxs)(a.Z, {
                                                 variant: "caption",
                                                 color: "textSecondary",
@@ -1313,7 +1313,7 @@
                                                     label: "Short Amount"
                                                 }), (0, m.jsxs)(a.Z, {
                                                     variant: "body1",
-                                                    children: [(0, _.nw)(new(A())(e.shortAmount), 18).toFixed(4), "\xa0 oSQTH"]
+                                                    children: [(0, _.nw)(new(A())(e.shortAmount), 18).toFixed(4), "\xa0 oORN"]
                                                 })]
                                             }), (0, m.jsxs)(Ue.Z, {
                                                 item: !0,
@@ -1396,13 +1396,13 @@
                                     variant: "caption",
                                     component: "span",
                                     color: "textSecondary",
-                                    children: "oSQTH Amount"
+                                    children: "oORN Amount"
                                 }), (0, m.jsxs)(a.Z, {
                                     variant: "body1",
                                     children: [n && i.isEqualTo(0) ? "Loading" : (0, m.jsx)("span", {
                                         id: "pos-page-long-osqth-bal",
                                         children: i.toFixed(8)
-                                    }), " ", "\xa0 oSQTH"]
+                                    }), " ", "\xa0 oORN"]
                                 })]
                             }), (0, m.jsxs)("div", {
                                 style: {
@@ -1522,14 +1522,14 @@
                                     variant: "caption",
                                     component: "span",
                                     color: "textSecondary",
-                                    children: "oSQTH Amount"
+                                    children: "oORN Amount"
                                 }), u ? (0, m.jsx)(a.Z, {
                                     variant: "body1",
                                     children: "Loading"
                                 }) : (0, m.jsx)(a.Z, {
                                     variant: "body1",
                                     id: "pos-page-short-osqth-bal",
-                                    children: h.toFixed(8) + " oSQTH"
+                                    children: h.toFixed(8) + " oORN"
                                 })]
                             }), (0, m.jsxs)("div", {
                                 style: {
@@ -1689,7 +1689,7 @@
                                     children: [(0, m.jsx)("span", {
                                         id: "pos-page-lped-osqth-bal",
                                         children: l.toFixed(8)
-                                    }), "\xa0 oSQTH"]
+                                    }), "\xa0 oORN"]
                                 })]
                             })
                         }), (0, m.jsxs)("div", {
@@ -1779,7 +1779,7 @@
                                     children: [l ? "Loading" : (0, m.jsx)("span", {
                                         id: "pos-page-minted-osqth-bal",
                                         children: h.toFixed(8)
-                                    }), " ", "\xa0 oSQTH"]
+                                    }), " ", "\xa0 oORN"]
                                 })]
                             })
                         }), (0, m.jsxs)("div", {
@@ -2467,7 +2467,7 @@
                                     children: [" ", D ? (0, b.jsx)(b.Fragment, {
                                         children: "Copied"
                                     }) : (0, b.jsxs)(b.Fragment, {
-                                        children: ["oSQTH: ", null === o || void 0 === o ? void 0 : o.substring(0, 6), "...", null === o || void 0 === o ? void 0 : o.substring(o.length - 4)]
+                                        children: ["oORN: ", null === o || void 0 === o ? void 0 : o.substring(0, 6), "...", null === o || void 0 === o ? void 0 : o.substring(o.length - 4)]
                                     })]
                                 }), (0, b.jsx)(s.Z, {
                                     edge: "start",

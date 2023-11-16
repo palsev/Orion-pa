@@ -2163,7 +2163,7 @@
                                 variant: "h2",
                                 className: e.heading,
                                 children: "Stack USDC when ETH is calm"
-                            }), (0, ee.jsxs)(g.Z, {
+                            }), (0, ee.jsx)(g.Z, {
                                 className: (0, be.default)(e.text, e.textMargin),
                                 children: ["In general, Crab earns USDC returns except when there is high ETH volatility in the market, when it may draw down. Most often, the strategy stacks USDC if ETH is within the below bands at the next hedge.", " "   ]
                             })]
