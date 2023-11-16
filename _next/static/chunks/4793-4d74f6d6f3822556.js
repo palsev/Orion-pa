@@ -411,6 +411,17 @@
                                 id: "alert-dialog-title",
                                 children: [(0, j.jsx)("p", {
                                     children: "Deposit Orion and ETH into Uniswap V3 Pool \ud83e\udd84"
+                                }), (0, j.jsxs)(c.Z, {
+                                    variant: "outlined",
+                                    color: "primary",
+                                    onClick: function () {
+                                        T(r)
+                                    },
+                                    children: [" ", k ? (0, j.jsx)(j.Fragment, {
+                                        children: "Copied"
+                                    }) : (0, j.jsxs)(j.Fragment, {
+                                        children: ["oORN: ", null === r || void 0 === r ? void 0 : r.substring(0, 6), "...", null === r || void 0 === r ? void 0 : r.substring(r.length - 4)]
+                                    })]
                                 }), (0, j.jsx)(l.Z, {
                                     edge: "start",
                                     onClick: L,

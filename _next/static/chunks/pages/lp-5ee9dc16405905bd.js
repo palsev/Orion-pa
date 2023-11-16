@@ -273,7 +273,7 @@
                 R = i(96577),
                 M = i.n(R),
                 G = {
-                    src: "/_next/static/media/mint-squeeth.e3a16ecd.svg",
+                    src: "/_next/static/media/mint.png",
                     height: 238,
                     width: 196
                 },
