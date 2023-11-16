@@ -1,0 +1,1 @@
+self.__SSG_MANIFEST=new Set(["\u002Fpos-merge","\u002Fprivacy-policy","\u002Fterms-of-service","\u002Fterms-of-service-faq"]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()

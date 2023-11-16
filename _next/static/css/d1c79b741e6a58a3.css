@@ -1,0 +1,148 @@
+body {
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    background: #181b1c;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed
+}
+
+.jss60{
+    min-width: 218px;
+    min-height: 50px;
+    max-height: 50px;
+}
+.jss83 span{
+    width: 218px !important;
+    height: 44px !important;
+}
+.jss60 span{
+    width: 218px !important;
+    height: 44px !important;
+}
+.jss109 span{
+    width: 218px !important;
+    height: 44px !important;
+}
+
+body,
+html {
+    padding: 0;
+    margin: 0
+}
+
+html {
+    background: "none"
+}
+
+sup {
+    vertical-align: top;
+    font-size: .6em
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0
+}
+
+input[type=number] {
+    -moz-appearance: textfield
+}
+
+a {
+    color: inherit;
+    text-decoration: none
+}
+
+* {
+    box-sizing: border-box
+}
+
+.bn-onboard-custom.bn-onboard-modal {
+    z-index: 99
+}
+
+.crab-notice {
+    background: linear-gradient(270deg, rgba(32, 202, 26, .1), rgba(19, 131, 17, .4));
+    background-size: 200% 200%;
+    animation: AnimationName 8s ease infinite
+}
+
+@keyframes AnimationName {
+    0% {
+        background-position: 0 46%
+    }
+
+    50% {
+        background-position: 100% 55%
+    }
+
+    to {
+        background-position: 0 46%
+    }
+}
+
+#rain-front {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2
+}
+
+#rain-back {
+    z-index: 1;
+    bottom: 60px;
+    opacity: .5
+}
+
+.drop {
+    position: absolute;
+    bottom: 100%;
+    width: 15px;
+    height: 120px;
+    pointer-events: none;
+    animation: drop 0s linear infinite
+}
+
+@keyframes drop {
+    0% {
+        transform: translateY(0)
+    }
+
+    75% {
+        transform: translateY(90vh)
+    }
+
+    to {
+        transform: translateY(100vh)
+    }
+}
+
+.stem {
+    width: 1px;
+    height: 60%;
+    margin-left: 7px;
+    background: linear-gradient(180deg, hsla(0, 0%, 100%, 0), hsla(0, 0%, 100%, .25));
+    animation: stem 0s linear infinite
+}
+
+@keyframes stem {
+    0% {
+        opacity: 1
+    }
+
+    65% {
+        opacity: 1
+    }
+
+    75% {
+        opacity: 0
+    }
+
+    to {
+        opacity: 0
+    }
+}
+
+/*# sourceMappingURL=d1c79b741e6a58a3.css.map*/
