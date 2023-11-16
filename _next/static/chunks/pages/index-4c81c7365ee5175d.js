@@ -528,7 +528,7 @@
                     label: "Strategies",
                     link: "/strategies/crab"
                 }, {
-                    label: "Squeeth",
+                    label: "Orion",
                     link: "/squeeth"
                 }],
                 L = [{
@@ -562,8 +562,8 @@
                                     children: (0, D.jsx)(j(), {
                                         src: c.Z,
                                         alt: "logo",
-                                        width: 97,
-                                        height: 75
+                                        width: 218,
+                                        height: 44
                                     })
                                 })
                             }), (0, D.jsxs)("div", {
@@ -626,7 +626,7 @@
                                         }), (0, D.jsx)(y.Z, {
                                             variant: "h2",
                                             className: e.introSectionSubHeading,
-                                            children: "Powered by squeeth."
+                                            children: "Powered by orion."
                                         }), (0, D.jsx)("div", {
                                             style: {
                                                 marginTop: "39px"
@@ -693,13 +693,13 @@
                                                 children: (0, D.jsx)(j(), {
                                                     src: c.Z,
                                                     alt: "logo",
-                                                    width: 97,
-                                                    height: 75
+                                                    width: 218,
+                                                    height: 44
                                                 })
                                             }), (0, D.jsx)(y.Z, {
                                                 variant: "h3",
                                                 className: (0, N.default)([e.contentSectionHeaderLabel, e.gradientText]),
-                                                children: "SQUEETH"
+                                                children: "ORION"
                                             })]
                                         }), (0, D.jsx)("div", {
                                             style: {
@@ -733,7 +733,7 @@
                                                     return n(B.Nc.NAV_HERO_SQUEETH)
                                                 },
                                                 className: e.contentSectionButton,
-                                                children: "Trade Squeeth"
+                                                children: "Trade Orion"
                                             })
                                         })]
                                     })
@@ -743,7 +743,7 @@
                                         className: e.imageSection,
                                         children: (0, D.jsx)(j(), {
                                             src: h,
-                                            alt: "Squeeth Image",
+                                            alt: "Orion Image",
                                             placeholder: "blur"
                                         })
                                     })
@@ -1304,7 +1304,7 @@
                     label: "Strategies",
                     link: "/strategies/crab"
                 }, {
-                    label: "Squeeth",
+                    label: "Orion",
                     link: "/squeeth"
                 }],
                 ee = [{
@@ -1449,7 +1449,7 @@
                                     }), (0, D.jsx)(y.Z, {
                                         variant: "h2",
                                         className: a.introSectionSubHeading,
-                                        children: "Built on squeeth."
+                                        children: "Built on orion."
                                     }), (0, D.jsx)("div", {
                                         style: {
                                             marginTop: "20px"
@@ -1495,7 +1495,7 @@
                                 className: a.verticalImage,
                                 children: (0, D.jsx)(j(), {
                                     src: Q,
-                                    alt: "Squeeth",
+                                    alt: "Orion",
                                     placeholder: "blur"
                                 })
                             }), (0, D.jsxs)("div", {
@@ -1513,7 +1513,7 @@
                                     }), (0, D.jsx)(y.Z, {
                                         variant: "h3",
                                         className: (0, N.default)([a.contentSectionHeaderLabel, a.gradientText]),
-                                        children: "SQUEETH"
+                                        children: "ORION"
                                     })]
                                 }), (0, D.jsx)("div", {
                                     style: {
@@ -1547,7 +1547,7 @@
                                             return r(B.Nc.NAV_HERO_SQUEETH)
                                         },
                                         className: a.contentSectionButton,
-                                        children: "Trade Squeeth"
+                                        children: "Trade Orion"
                                     })
                                 })]
                             }), (0, D.jsx)("div", {

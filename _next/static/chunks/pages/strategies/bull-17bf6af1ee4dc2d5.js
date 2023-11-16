@@ -303,17 +303,6 @@
                                 variant: "h2",
                                 className: e.heading,
                                 children: "Stack ETH when ETH increases slow and steady"
-                            }), (0, E.jsxs)(l.Z, {
-                                className: (0, h.default)(e.text, e.textMargin),
-                                children: ["Zen bull makes money when ETH goes up, slow and steady. It stacks ETH if ETH is within the below bands at the next rebalance.", " ", (0, E.jsx)(B.g, {
-                                    href: _,
-                                    onClick: function () {
-                                        return n(C.rg.CLICK_LEARN_MORE_BULL, {
-                                            link: _
-                                        })
-                                    },
-                                    children: "Learn more"
-                                })]
                             })]
                         }), (0, E.jsx)(x.Z, {
                             marginTop: "16px",
@@ -417,19 +406,7 @@
                     })
                 })),
                 me = function () {
-                    return (0, E.jsx)(E.Fragment, {
-                        children: (0, E.jsxs)(l.Z, {
-                            variant: "caption",
-                            children: ["The recovery contract has undergone internal testing and an external peer review, but not audited. Use at your own discretion.", (0, E.jsx)(u.Z, {
-                                href: "https://opyn.gitbook.io/zen-bull-euler-exploit-faq/",
-                                target: "_blank",
-                                style: {
-                                    marginLeft: "4px"
-                                },
-                                children: "Learn more."
-                            })]
-                        })
-                    })
+                    return null
                 };
             ! function (e) {
                 e[e.OPYN = 1] = "OPYN", e[e.EULER = 2] = "EULER"
@@ -719,15 +696,7 @@
                                 variant: "h3",
                                 className: o.subtitle,
                                 children: "Recovery Withdrawal - Crab"
-                            }), (0, E.jsxs)(l.Z, {
-                                variant: "body2",
-                                className: c.description,
-                                children: ["Use recovery withdrawal to withdraw the Crab portion of a Zen Bull position.", " ", (0, E.jsx)(u.Z, {
-                                    href: "https://opyn.gitbook.io/zen-bull-euler-exploit-faq/",
-                                    target: "_blank",
-                                    children: "Learn more."
-                                })]
-                            }), (0, E.jsxs)("div", {
+                            }),  (0, E.jsxs)("div", {
                                 className: c.subDescription,
                                 children: [(0, E.jsx)(l.Z, {
                                     variant: "body2",
@@ -865,14 +834,6 @@
                                 },
                                 className: o.subtitle,
                                 children: "Recovery Withdrawal - Euler"
-                            }), (0, E.jsxs)(l.Z, {
-                                variant: "body2",
-                                className: c.description,
-                                children: ["Go to Euler's redemption page to claim funds from Euler.", " ", (0, E.jsx)(u.Z, {
-                                    href: "https://opyn.gitbook.io/zen-bull-euler-exploit-faq/",
-                                    target: "_blank",
-                                    children: "Learn more."
-                                })]
                             }), (0, E.jsx)("div", {
                                 className: o.tradeContainer,
                                 children: (0, E.jsx)("a", {

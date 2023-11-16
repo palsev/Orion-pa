@@ -5,7 +5,13 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed
 }
+.cc-nsge{
+    display: none !important;
+}
 
+#crisp-chatbox{
+    display: none !important;
+}
 .jss60{
     min-width: 218px;
     min-height: 50px;
